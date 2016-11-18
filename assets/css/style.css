@@ -2,8 +2,13 @@
 	font-size: 50px;
 	font-weight: 700;
 	margin-left: 100px;
-	margin-top: 500px;
+	margin-top: 100px;
 	color: red;
 	font-style: italic;
 
+}
+
+#fixed{
+	font-size: 50px;
+	font-weight: 700;
 }
