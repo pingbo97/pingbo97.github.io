@@ -1,15 +1,34 @@
 <html>
-	<head>
-		<link rel="stylesheet" href="assets/css/style.css">
-		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-		<script src="assets/script/script.js"></script>
-	</head>
-	<body>
-
-	<div id = "welcome"> Hello internet!
-	My name is Pingbo Zhou. I am a sophomore. Where is my CSS? I wrote it but it doesn't seem to be coming in. :( It seems this problem is continuing. </div>
-
-	<div id= "fixed"> Nevermind! The CSS has arrived. It was my bad before. </div>
-
-	</body>
+<head>
+<title>My Website's Login Page</title>
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="assets/style.css" />
+<script src="assets/jquery-1.9.1.js"></script>
+<script src="assets/script.js"></script>
+</head>
+<body>
+	
+	<div id="modal-container">
+		<div id="modal-overlay"></div>
+			<div id="modal-box">
+				<div class="header"> Login </div>
+				<div class="content">
+					<div class="username"><input type = "text" class = "NAME_HERE" placeholder = "Enter Username" /></div>
+					<div class="password"><input type = "text" class = "PASSWORD_HERE" placeholder = "Enter Password" /></div>
+				</div> 
+				<div class="submit"> Submit </div>
+				<div class="cancel"> Cancel </div>
+			</div>
+	</div> 
+	
+	<div id="background">
+		<div id="background-overlay"></div>
+	</div>
+	<div id="hero">
+		<div id="subheading">INSPIRE</div>
+		<div id="heading">Live Through Photography</div>
+		<div id="link">Login/Sign Up</div>
+	</div>
+	
+</body>
 </html>
