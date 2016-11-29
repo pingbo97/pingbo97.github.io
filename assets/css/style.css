@@ -31,20 +31,18 @@ background: #edeae5;
     height: 100%;
     position: absolute;
 }
-
-#subheading {
-    font-size: 80px;
+#hero {
     position: absolute;
-    top: 15px;
-    text-align: center;
-    color: black;
+    color: white;
+    bottom: 90px;
+    right: 90px;
+    text-align: right;
+}
+#subheading {
+    font-size: 24px;
 }
 #heading {
     font-size: 48px;
-    position: absolute;
-    top: 65px;
-    text-align: center;
-    color: black;
 }
 #link {
     background: #de6868;
