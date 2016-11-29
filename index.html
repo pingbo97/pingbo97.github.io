@@ -2,12 +2,12 @@
 <html>
 	<head>
 	    <title>Login Page</title>
-	    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	    <link rel="stylesheet" type="text/css" href="loginassets/css/style.css">
 	    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-	    <script src="assets/jquery-1.9.1.js"></script>
-		<script src="assets/script.js"></script>
+	   
 	</head>
 	<body>
+
 
 	<div id="modal-container">
 		<div id="modal-overlay"></div>
@@ -18,12 +18,17 @@
 					<div class="username"><input type = "text" class = "NAME_HERE" placeholder = "Enter Username" /></div>
 					<div class="password"><input type = "text" class = "PASSWORD_HERE" placeholder = "Enter Password" /></div>
 				</div> 
-				<div class="submit"> Submit </div>
-				<div class="cancel"> Cancel </div>
+				<a href="view.html" target="_blank"><div id="submit">Submit</div></a>
+
 			</div>
+			<div id="signup">Sign Up</div>
+			<a href="about.html" target="_blank"><div id="link" >About the Creator</div></a>
 	</div> 
 	
-		<div id="background"><img class="img-scaled-wh" src="assets/img/background.jpg" />
+
+
+		<div id="background"><img class="img-scaled-wh" src="loginassets/img/background.jpg" />
+			<a href="about.html" target="_blank"><div id="about">About</div></a>
 			<div class=dark></div>
 			<div id="container">
 			<div id="title">
@@ -32,11 +37,13 @@
 			</div>
 			<div id="heading">INSPIRE</div>
 			<div id="description">Better pictures for a better world</div>
-			
+
 			</div> 
 		</div>
 		</div>
 
+		
+		
 	
 	</body>
 </html>
