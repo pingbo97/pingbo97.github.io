@@ -1,0 +1,18 @@
+body {
+	overflow: hidden;
+	margin: 0px;
+	font-family: 'Lato', sans-serif;
+	background: #273f66;
+}
+
+
+#header{
+	position: fixed;
+	top: 0px;
+	padding: 40px;
+	width: 100%;
+	color: white;
+	font-size: 40px;
+	font-weight: 300;
+	font-style: italic;
+}
