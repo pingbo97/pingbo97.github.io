@@ -21,7 +21,7 @@ body {
 	font-weight: 200;
 	left: 25px;
 	top: 30px;
-	color: #38013f;
+	color: #ffafaf;
 
 }
 
@@ -41,7 +41,7 @@ body {
 
 #intro{
 	font-size: 20px;
-	font-weight: 200;
+	font-weight: 300;
 	left: 1005px;
 	top: 370px;
 	color: white;
@@ -51,10 +51,10 @@ body {
 }
 #story{
 	font-size: 20px;
-	font-weight: 200;
+	font-weight: 300;
 	left: 25px;
 	top: 140px;
-	color: #38013f;
+	color: #ffafaf;
 	position: absolute;
 	width: 300px;
 
@@ -67,60 +67,44 @@ body {
 	left: 25px;
 	top: 160px;
 	width: 400px;
-	font-weight: 300;
+	font-weight: 500;
+	font-size: 15px;
 }
 
 #description2{
 	margin-top: 20px;
 	line-height: 1.5;
 	text-align: left;
-	font-weight: 300;
+	font-weight: 500;
 	position: absolute;
 	left: 25px;
-	top: 260px;
+	top: 240px;
 	width: 400px;
+	font-size: 15px;
 }
 
 #description3{
 	margin-top: 20px;
 	line-height: 1.5;
 	text-align: left;
-	font-weight: 300;
+	font-weight: 500;
 	position: absolute;
 	left: 25px;
-	top: 470px;
+	top: 430px;
 	width: 400px;
+	font-size: 15px;
 }
 
-#play {
-	position: relative;
-	width: 50px;
-	margin-top: 30px;
-	display: block;
-	margin: 0 auto;
-}
+#donate{
 
-#play:hover {
-	-webkit-filter: invert(100%);
-	-moz-filter: invert(100%);
-	-o-filter: invert(100%);
-	-ms-filter: invert(100%);
-	transition: 1s;
-}
-
-#album-art {
-	width: 150px;
-	margin-top: 20px;
-	-webkit-box-shadow: 5px 5px 17px -4px rgba(0,0,0,0.6);
-	-moz-box-shadow: 5px 5px 17px -4px rgba(0,0,0,0.6);
-	box-shadow: 5px 5px 17px -4px rgba(0,0,0,0.6);
-	display: block;
-	margin: 0 auto;
-}
-
-#song-title {
-	font-weight: 600;
-	font-size: 24px;
-	margin-top: 10px;
-	text-align: center;
+    background: #d13838;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 2px;
+    font-weight: 300;
+    margin-top: 10px;
+    position: absolute;
+    top: 600px;
+    left: 20px;
 }
