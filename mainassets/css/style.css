@@ -15,4 +15,83 @@ body {
 	font-size: 40px;
 	font-weight: 300;
 	font-style: italic;
+	left: 50px;
+}
+
+#slogan{
+	position: fixed;
+	top: 50px;
+	padding: 40px;
+	width: 100%;
+	color: white;
+	font-size: 20px;
+	font-weight: 100;
+	font-style: italic;
+	left: 10px;
+}
+
+
+
+
+#nature{
+	position: absolute;
+	top: 250px;
+	left: 400px;
+	cursor: pointer;
+}
+
+
+
+#human{
+	position: absolute;
+	top: 250px;
+	left: 750px;
+	cursor: pointer;
+}
+
+
+
+.nature1{
+	color:white;
+	font-size: 15;
+	position: absolute;
+	top: 420px;
+	left: 480px;
+}
+
+
+.human1{
+	color:white;
+	font-size: 15;
+	position: absolute;
+	top: 420px;
+	left: 840px;
+}
+
+#nature2{
+	text-align: center;
+	position: absolute;
+	display: none;
+	z-index: 100;
+	top: 200px;
+	left:25%;
+}
+
+#people{
+	text-align: center;
+	position: absolute;
+	display: none;
+	z-index: 100;
+	top: 200px;
+	left:25%;
+}
+
+#exit{
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	font-size: 20px;
+	font-weight: 800;
+	color: white;
+	cursor: pointer;
 }
